@@ -1,0 +1,17 @@
+{
+  "name": "budojo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "01": "budo 01-first-reverse.js --live",
+    "02": "budo 01-first-factorial.js --live",
+    "03": "budo 01-longest-word.js --live"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "budo": "^4.2.1",
+    "watchify": "^3.4.0"
+  }
+}
