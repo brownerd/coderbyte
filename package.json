@@ -2,11 +2,9 @@
   "name": "budojo",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "03-longest-word.js",
   "scripts": {
-    "01": "budo 01-first-reverse.js --live",
-    "02": "budo 01-first-factorial.js --live",
-    "03": "budo 01-longest-word.js --live"
+    "start": "budo 03-longest-word.js --live"
   },
   "author": "",
   "license": "ISC",
