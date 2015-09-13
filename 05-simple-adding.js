@@ -9,4 +9,30 @@ function SimpleAdding(num) {
 
 // keep this function call here
 // to see how to enter arguments in JavaScript scroll down
-SimpleAdding(readline());   
+SimpleAdding(readline());
+
+
+
+
+
+// Correct Sample Outputs
+
+// Input = 12   Output = 78
+// Input = 140  Output = 9870
+
+
+
+
+
+
+
+
+// Resources used
+
+
+
+
+
+
+
+// Scratch pad

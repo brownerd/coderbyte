@@ -8,35 +8,48 @@ var errorify = require('errorify')
 var openURL = require('opn')
 var browser = 'google chrome canary'
 
-var files = [
-  '01-first-reverse.js',
-  '02-first-factorial.js',
-  '03-longest-word.js',
-  '04-letter-changes.js',
-  '05-simple-adding.js',
-  '06-letter-capitalize.js',
-  '07-check-nums.js',
-  '08-time-convert.js',
-  '09-alphabet-soup.js',
-  '10-ab-check.js',
-  '11-vowel-count.js',
-  '12-word-count.js',
-  '13-ex-oh.js',
-  '14-palindrome.js',
-  '15-arith-geo.js',
-  '16-array-addition-1.js',
-  '17-second-greatlow.js',
-  '18-division-stringfield.js',
-  '19-counting-minutes.js',
-  '20-mean-mode.js',
-  '21-dash-insert.js',
-  '22-swap-case.js',
-  '23-number-addition.js',
-  '24-thrid-greatest.js',
-  '25-powers-of-two.js'
-]
+var challenges = {
+  'easy' : [
+    '01-First-Reverse.js',
+    '02-First-Factorial.js',
+    '03-Longest-Word.js',
+    '04-Letter-Changes.js',
+    '05-Simple-Adding.js',
+    '06-Letter-Capitalize.js',
+    '07-Simple-Symbols.js',
+    '08-Check-Nums.js',
+    '09-Time-Convert.js',
+    '10-Alphabet-Soup.js',
+    '11-AB-Check.js',
+    '12-Vowel-Count.js',
+    '13-Word-Count.js',
+    '14-Ex-Oh.js',
+    '15-Palindrome.js',
+    '16-Arith-Geo.js',
+    '17-Array-Addition-I.js',
+    '18-Letter-Count-I.js',
+    '19-Second-GreatLow.js',
+    '20-Division-Stringified.js',
+    '21-Counting-Minutes-I.js',
+    '22-Mean-Mode.js',
+    '23-Dash-Insert.js',
+    '24-Swap-Case.js',
+    '25-Number-Addition.js',
+    '26-Third-Greatest.js',
+    '27-Powers-of-Two.js',
+    '28-Additive-Persistence.js',
+    '29-Multiplicative-Persistence.js',
+    '30-Off Line-Minimum.js'
+  ],
+  'medium' : [
 
-var entry = './' + files[3]
+  ],
+  'hard' : [
+
+  ]
+}
+
+var entry = './easy/' + challenges.easy[0]
 
 //the development task
 gulp.task('dev', function(cb) {
