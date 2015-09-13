@@ -10,8 +10,9 @@ function PowersofTwo(num) {
   return num;
 
 }
-console.log( PowersofTwo(4) );
 
+console.log( PowersofTwo(4) )
+console.log( PowersofTwo(124) )
 
 // Correct Sample Outputs
 // ----------------------------------------------------------------------------

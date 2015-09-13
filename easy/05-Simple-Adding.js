@@ -10,7 +10,8 @@ function SimpleAdding(num) {
 
 }
 
-console.log( SimpleAdding( 12  )  );
+console.log( SimpleAdding( 12 ) );
+console.log( SimpleAdding( 140 ) );
 
 
 

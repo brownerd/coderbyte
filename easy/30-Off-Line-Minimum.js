@@ -13,7 +13,8 @@ function OffLineMinimum(strArr) {
 
 }
 
-console.log( OffLineMinimum("1","2","E","E","3") );
+console.log( OffLineMinimum([]"1","2","E","E","3"]) )
+console.log( OffLineMinimum(["4","E","1","E","2","E","3","E" ]) )
 
 // Correct Sample Outputs
 // ----------------------------------------------------------------------------

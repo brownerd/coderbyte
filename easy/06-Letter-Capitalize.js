@@ -10,7 +10,8 @@ function LetterCapitalize(str) {
 
 }
 
-console.log( LetterCapitalize()  )
+console.log( LetterCapitalize("hello world") )
+console.log( LetterCapitalize("i ran there") )
 
 
 

@@ -14,7 +14,8 @@ function ArithGeo(arr) {
 
 }
 
-console.log( ArithGeo() );
+console.log( ArithGeo([5,10,15]) )
+console.log( ArithGeo([2,4,16,24]) )
 
 
 // Correct Sample Outputs

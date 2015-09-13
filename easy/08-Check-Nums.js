@@ -10,7 +10,8 @@ function CheckNums(num1,num2) {
 
 }
 
-console.log( CheckNums()  )
+console.log( CheckNums(3,119)  )
+console.log( CheckNums(67,0)  )
 
 
 

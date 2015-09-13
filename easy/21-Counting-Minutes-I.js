@@ -11,7 +11,8 @@ function CountingMinutesI(str) {
   return str;
 
 }
-console.log( CountingMinutesI("12:30pm-12:00am") );
+console.log( CountingMinutesI("12:30pm-12:00am") )
+console.log( CountingMinutesI("1:23am-1:08am") )
 
 
 // Correct Sample Outputs

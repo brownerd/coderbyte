@@ -9,7 +9,8 @@ function SwapCase(str) {
   return str;
 
 }
-console.log( SwapCase("Hello-LOL") );
+console.log( SwapCase("Hello-LOL") )
+console.log( SwapCase("Sup DUDE!!?") )
 
 
 // Correct Sample Outputs

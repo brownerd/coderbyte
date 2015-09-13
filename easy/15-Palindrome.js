@@ -12,7 +12,8 @@ function Palindrome(str) {
 
 }
 
-console.log( Palindrome() );
+console.log( Palindrome("never odd or even" ) );
+console.log( Palindrome("eye" ) );
 
 
 // Correct Sample Outputs

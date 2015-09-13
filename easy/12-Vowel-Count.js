@@ -11,7 +11,8 @@ function VowelCount(str) {
 
 }
 
-console.log( VowelCount() );
+console.log( VowelCount("hello" ) )
+console.log( VowelCount("coderbyte") )
 
 
 // Correct Sample Outputs

@@ -10,7 +10,8 @@ function ArrayAdditionI(arr) {
 
 }
 
-console.log( ArrayAdditionI() );
+console.log( ArrayAdditionI([5,7,16,1,2]) )
+console.log( ArrayAdditionI([3,5,-1,8,12]) )
 
 
 // Correct Sample Outputs

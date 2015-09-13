@@ -11,7 +11,8 @@ function ABCheck(str) {
 
 }
 
-console.log( ABCheck() );
+console.log( ABCheck("after badly") )
+console.log( ABCheck("Laura sobs") )
 
 
 // Correct Sample Outputs

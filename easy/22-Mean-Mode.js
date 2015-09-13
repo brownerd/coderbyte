@@ -9,7 +9,8 @@ function MeanMode(arr) {
   return arr;
 
 }
-console.log( MeanMode([1,2,3,100]) );
+console.log( MeanMode([1,2,3]) )
+console.log( MeanMode([4, 4, 4, 6, 2]) )
 
 // Correct Sample Outputs
 // ----------------------------------------------------------------------------

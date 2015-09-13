@@ -9,7 +9,8 @@ function ExOh(str) {
 
 }
 
-console.log( ExOh() );
+console.log( ExOh("xooxxo") )
+console.log( ExOh("x") )
 
 
 // Correct Sample Outputs

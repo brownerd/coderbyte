@@ -11,8 +11,9 @@ function ThirdGreatest(strArr) {
   return strArr;
 
 }
-console.log( ThirdGreatest("coder","byte","code" ) );
 
+console.log( ThirdGreatest("coder","byte","code" ) )
+console.log( ThirdGreatest("abc","defg","z","hijk" ) )
 
 
 // Correct Sample Outputs

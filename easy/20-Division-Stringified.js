@@ -10,7 +10,9 @@ function DivisionStringified(num1,num2) {
   return num1 + num2;
 
 }
-console.log( DivisionStringified(8,8) );
+
+console.log( DivisionStringified(8,8) )
+console.log( DivisionStringified(6874,88) )
 
 
 

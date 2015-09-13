@@ -11,7 +11,8 @@ function AlphabetSoup(str) {
 
 }
 
-console.log( AlphabetSoup() )
+console.log( AlphabetSoup("coderbyte") )
+console.log( AlphabetSoup("hooplah") )
 
 
 // Correct Sample Outputs

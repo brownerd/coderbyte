@@ -10,7 +10,8 @@ function WordCount(str) {
 
 }
 
-console.log( WordCount() );
+console.log( WordCount("Hello World" ) )
+console.log( WordCount("one 22 three") )
 
 
 // Correct Sample Outputs

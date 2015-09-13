@@ -9,7 +9,8 @@ function TimeConvert(num) {
 
 }
 
-console.log( TimeConvert() )
+console.log( TimeConvert(126) )
+console.log( TimeConvert(45) )
 
 
 

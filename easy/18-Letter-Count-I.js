@@ -12,7 +12,8 @@ function LetterCountI(str) {
 
 }
 
-console.log( LetterCountI() )
+console.log( LetterCountI("Hello apple pie") )
+console.log( LetterCountI("No words") )
 
 
 

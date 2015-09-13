@@ -12,7 +12,8 @@ function SecondGreatLow(arr) {
 
 }
 
-console.log( SecondGreatLow() );
+console.log( SecondGreatLow([1, 42, 42, 180]) )
+console.log( SecondGreatLow([4, 90]) )
 
 
 

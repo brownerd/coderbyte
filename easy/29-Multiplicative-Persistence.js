@@ -10,8 +10,9 @@ function MultiplicativePersistence(num) {
   return num;
 
 }
-console.log( MultiplicativePersistence(4) );
 
+console.log( MultiplicativePersistence(4) )
+console.log( MultiplicativePersistence(25) )
 
 
 // Correct Sample Outputs

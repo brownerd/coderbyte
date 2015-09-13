@@ -13,8 +13,9 @@ function NumberAddition(str) {
   return str;
 
 }
-console.log( NumberAddition("75Number9") );
 
+console.log( NumberAddition("75Number9") )
+console.log( NumberAddition("10 2One Number*1*") )
 
 
 // Correct Sample Outputs

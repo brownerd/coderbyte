@@ -11,7 +11,8 @@ function LetterChanges(str) {
 
 }
 
-console.log( LetterChanges(   ) );
+console.log( LetterChanges( "hello*3"  ) );
+console.log( LetterChanges( "fun times!" ) );
 
 
 

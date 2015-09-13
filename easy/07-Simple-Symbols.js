@@ -13,7 +13,8 @@ function SimpleSymbols(str) {
 
 }
 
-console.log( SimpleSymbols() );
+console.log( SimpleSymbols("+d+=3=+s+") );
+console.log( SimpleSymbols("f++d+") );
 
 
 

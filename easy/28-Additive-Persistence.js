@@ -10,8 +10,9 @@ function AdditivePersistence(num) {
   return num;
 
 }
-console.log( AdditivePersistence(4) );
 
+console.log( AdditivePersistence(4) )
+console.log( AdditivePersistence(19) )
 
 // Correct Sample Outputs
 // ----------------------------------------------------------------------------

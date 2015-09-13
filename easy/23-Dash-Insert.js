@@ -10,8 +10,9 @@ function DashInsert(str) {
   return str;
 
 }
-console.log( DashInsert(99946) );
 
+console.log( DashInsert(99946) )
+console.log( DashInsert(56730) )
 
 // Correct Sample Outputs
 // ----------------------------------------------------------------------------
