@@ -2,14 +2,20 @@
   "name": "budojo",
   "version": "1.0.0",
   "description": "",
-  "main": "03-longest-word.js",
+  "main": "04-letter-changes.js",
   "scripts": {
-    "start": "budo 03-longest-word.js --live"
+    "start": "budo 04-letter-changes.js --live | garnish"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "budo": "^4.2.1",
+    "errorify": "^0.3.1",
+    "garnish": "^3.2.0",
+    "gulp": "^3.9.0",
+    "minimist": "^1.2.0",
+    "once": "^1.3.2",
+    "opn": "^3.0.2",
     "watchify": "^3.4.0"
   }
 }
