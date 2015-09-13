@@ -1,3 +1,8 @@
+// Using the JavaScript language, have the function LongestWord(sen) take the sen parameter being passed and return the largest word in the string. If there are two or more words that are the same length, return the first word from the string with that length. Ignore punctuation and assume sen will not be empty.
+
+
+
+
 // Using the reduce method
 var sentence = "What 908098098hello!!908()* the Mississippi hell is going on"
 

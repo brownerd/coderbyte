@@ -36,7 +36,7 @@ var files = [
   '25-powers-of-two.js'
 ]
 
-var entry = './' + files[0]
+var entry = './' + files[3]
 
 //the development task
 gulp.task('dev', function(cb) {

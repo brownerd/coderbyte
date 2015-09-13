@@ -51,12 +51,32 @@ function makeArr(str) {
 }
 
 
-
-// Alright, this took a while to figure out. I wonder how this can or should be optimized.
-
-
 console.log( makeArr( "Argument goes 342 hereZ" ) );
 
+
+
+// RESOURCES used to solve
+
+// http://www.w3schools.com/charsets/ref_html_ascii.asp
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/fromCharCode
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/charCodeAt
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/match
+// https://regex101.com/
+// http://stackoverflow.com/questions/5915789/replace-item-in-array-with-javascript
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Scratch PAD
 
 //ay(x)
 //zZ(x)
