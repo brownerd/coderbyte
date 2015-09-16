@@ -1,49 +1,16 @@
-# CoderByte starter
+# CoderByte challenges
 
 Run CoderByle challenges locally with gulp and budo
 
-## Setup
-- Clone this repo
-- Install dependencies `npm i`
-- Fire up challenges from the commandline `gulp coderbyte --easy --01`
-- This will open Google Chrome and live relaod your changes on save
-- Open Chrome dev tools to view output in the console
-
-
-## Backstory
-
-CoderByte is rad, but it sucks if you suck at JS like I do. I don't need to be timed yet, it takes me days to figure this stuff out.
-
-Furthermore, I wanted to try out other solutions, make notes and use Google Dev Tools easily. Also, I wanted to be able to see all of the challenges quickly. So, I copied all of the Easy challenges to this Repo. I will get around to the Medium and Hard challenges later.
-
-I am slowly working my way through the Easy Challenges in the `in-progress` branch.
-
-
-## Solution Resources
-If you are looking for the solutions to these challenges, you can check these resources below:
-- [leaena/coderbyte](https://github.com/leaena/coderbyte)
-- [ZLester/Coderbyte-Solutions](https://github.com/ZLester/Coderbyte-Solutions)
-
-
-## Manage progess
-Check off the challenges as you complete them! Example:
-
-1. [x] **First Reverse** - For this challenge you will be reversing a string.
-
-```1. [ ] **First Reverse**
-
-// Just put an x between the square brackets, and GitHub flavored markdown
-// will turn it into a checked box.
-1. [x] **First Reverse**
-```
+`gulp coderbyte --easy 1`
 
 
 ## Easy
 
-1. [ ] **First Reverse** - For this challenge you will be reversing a string.
-1. [ ] **First Factorial** - For this challenge you will be determining the factorial for a given number.
-1. [ ] **Longest Word** - For this challenge you will be determining the largest word in a string.
-1. [ ] **Letter Changes** - For this challenge you will be manipulating characters in a string based off their positions in the alphabet.
+1. [x] **First Reverse** - For this challenge you will be reversing a string.
+1. [x] **First Factorial** - For this challenge you will be determining the factorial for a given number.
+1. [x] **Longest Word** - For this challenge you will be determining the largest word in a string.
+1. [x] **Letter Changes** - For this challenge you will be manipulating characters in a string based off their positions in the alphabet.
 1. [ ] **Simple Adding** - For this challenge you will be adding up all the numbers from 1 to a certain argument.
 1. [ ] **Letter Capitalize** - For this challenge you will be capitalizing certain characters in a string.
 1. [ ] **Simple Symbols** - For this challenge you will be determining whether or not certain characters are in correct positions.

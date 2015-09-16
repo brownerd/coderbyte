@@ -4,8 +4,11 @@
 
 function FirstFactorial(num) {
 
-  // code goes here
-  return num;
+   var t = 1;
+   for(var i = 1; i <= num; i++) {
+     t *= i;
+   }
+   return t;
 
 }
 
@@ -32,3 +35,4 @@ console.log( FirstFactorial( 8 ) )
 
 // Scratch pad
 // ----------------------------------------------------------------------------
+// I see that there is a recursive way to do this, but recursion doesn't make sense to me yet.
