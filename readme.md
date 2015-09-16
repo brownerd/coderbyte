@@ -5,7 +5,7 @@ Run CoderByle challenges locally with gulp and budo
 ## Setup
 - Clone this repo
 - Install dependencies `npm i`
-- Fire up challenges from the commandline `gulp coderbyte --easy --01`
+- Fire up the first challenge from the commandline `gulp --d easy --c 1`. `--d` stands for difficulty. You can choose from easy, medium and hard. `--c` stands for challenge. Just indicate the number of the challenge you want to work on. 
 - This will open Google Chrome and live relaod your changes on save
 - Open Chrome dev tools to view output in the console
 
@@ -30,10 +30,11 @@ Check off the challenges as you complete them! Example:
 
 1. [x] **First Reverse** - For this challenge you will be reversing a string.
 
-```1. [ ] **First Reverse**
+```
+1. [ ] **First Reverse**
 
-// Just put an x between the square brackets, and GitHub flavored markdown
-// will turn it into a checked box.
+// Just put an x between the square brackets, and GitHub flavored markdown  will turn it into a checked box.
+
 1. [x] **First Reverse**
 ```
 
