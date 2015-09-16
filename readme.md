@@ -14,9 +14,9 @@ Run CoderByle challenges locally with gulp and budo
 
 CoderByte is rad, but it sucks if you suck at JS like I do. I don't need to be timed yet, it takes me days to figure this stuff out.
 
-Furthermore, I wanted to try out other solutions, make notes and use Google WebDev Tools. Also, I hate how can't see all the challenges quickly.
+Furthermore, I wanted to try out other solutions, make notes and use Google Dev Tools easily. Also, I wanted to be able to see all of the challenges quickly. So, I copied all of the Easy challenges to this Repo. I will get around to the Medium and Hard challenges later.
 
-So, I copied all of the Easy challenges to this Repo. I will get around to the Medium and Hard challenges later.
+I am slowly working my way through the Easy Challenges in the `in-progress` branch.
 
 
 ## Solution Resources
@@ -26,9 +26,16 @@ If you are looking for the solutions to these challenges, you can check these re
 
 
 ## Manage progess
-Check off the challenges as you complete them. Example:
+Check off the challenges as you complete them! Example:
 
 1. [x] **First Reverse** - For this challenge you will be reversing a string.
+
+```1. [ ] **First Reverse**
+
+// Just put an x between the square brackets, and GitHub flavored markdown
+// will turn it into a checked box.
+1. [x] **First Reverse**
+```
 
 
 ## Easy
