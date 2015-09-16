@@ -1,8 +1,9 @@
 # CoderByte challenges
 
-Run CoderByle challenges locally with gulp and budo
+Run CoderByte challenges locally with gulp and budo
 
-`gulp coderbyte --easy 1`
+run `gulp --d easy --c 1` to get started.
+`
 
 
 ## Easy

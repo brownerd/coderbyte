@@ -1,4 +1,6 @@
-var argv = require('minimist')(process.argv.slice(2))
+var argv = require('minimist')(process.argv.slice(2), {
+  string: 'd', // difficulty
+  number: 'c'}) // challenge
 
 var gulp = require('gulp')
 var budo = require('budo')
@@ -39,7 +41,7 @@ var challenges = {
     '27-Powers-of-Two.js',
     '28-Additive-Persistence.js',
     '29-Multiplicative-Persistence.js',
-    '30-Off Line-Minimum.js'
+    '30-Off-Line-Minimum.js'
   ],
   'medium' : [
 
@@ -50,15 +52,15 @@ var challenges = {
 }
 
 
+gulp.task('clog', function() {
+  console.log( argv );
+})
 
-// --easy 7
 
-// './easy/' + challenges.easy[argv - 1]
-
-var entry = './easy/' + challenges.easy[0]
+var entry = './'+ argv.d  +'/' + challenges[argv.d][argv.c - 1]
 
 //the development task
-gulp.task('dev', function(cb) {
+gulp.task('default', function(cb) {
 
   var ready = function(){}
   var pretty = garnish()
@@ -80,9 +82,9 @@ gulp.task('dev', function(cb) {
   })
   .once('update', function() {
     //open the browser
-    if (argv.open) {
+    //if (argv.open) {
       ready()
-    }
+    //}
   })
 })
 
@@ -90,4 +92,4 @@ gulp.task('dev', function(cb) {
 
 // Usage
 
-// gulp dev --open
+// gulp --d easy --c 1
