@@ -49,6 +49,12 @@ var challenges = {
   ]
 }
 
+
+
+// --easy 7
+
+// './easy/' + challenges.easy[argv - 1]
+
 var entry = './easy/' + challenges.easy[0]
 
 //the development task

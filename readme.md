@@ -1,4 +1,23 @@
-# CoderByte
+# CoderByte starter
+
+Run CoderByle challenges locally.
+
+- Clone this repo
+- Switch to the **start** branch to access all the uncompleted challenges
+- Install dependencies `npm i`
+- Fire up challenge from the commandline `gulp coderbyte --easy --01`
+
+
+## Backstory
+
+CoderByte is rad, but it sucks if you suck at JS like I do. I don't need to be timed yet, it takes me days to figure this stuff out.
+
+Furthermore, I wanted to try out other solutions, make notes and use Google WebDev Tools. Also, I hate how can't see all the challenges quickly.
+
+So, I copied all of the Challenges to this Repo.
+
+
+Check out the [Start](https://github.com/brownerd/coderbyte/tree/start) Branch to get all of the **uncompleted challenges**.
 
 Doing all I can to learn JS
 
