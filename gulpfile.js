@@ -8,7 +8,12 @@ var garnish  = require('garnish')
 var once = require('once')
 var errorify = require('errorify')
 var openURL = require('opn')
-var browser = 'google chrome canary'
+var browser = {
+  'gc' : 'google chrome',
+  'gcc': 'google chrome canary',
+  'ff' : 'firefox',
+  'sf' : 'safari'
+}
 
 var challenges = {
   'easy' : [
@@ -78,7 +83,7 @@ gulp.task('default', function(cb) {
   })
   .on('exit', cb)
   .on('connect', function(ev) {
-    ready = once(openURL.bind(null, ev.uri, {app: browser} ))
+    ready = once(openURL.bind(null, ev.uri, {app: browser.gc} ))
   })
   .once('update', function() {
     //open the browser

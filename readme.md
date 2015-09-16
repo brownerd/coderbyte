@@ -1,11 +1,11 @@
 # CoderByte starter
 
-Run CoderByle challenges locally with gulp and budo
+Run CoderByte challenges locally with gulp and budo
 
 ## Setup
 - Clone this repo
 - Install dependencies `npm i`
-- Fire up the first challenge from the commandline `gulp --d easy --c 1`. `--d` stands for difficulty. You can choose from easy, medium and hard. `--c` stands for challenge. Just indicate the number of the challenge you want to work on. 
+- Fire up the first challenge from the commandline `gulp --d easy --c 1`. `--d` stands for difficulty. You can choose from easy, medium and hard. `--c` stands for challenge. Just indicate the number of the challenge you want to work on.
 - This will open Google Chrome and live relaod your changes on save
 - Open Chrome dev tools to view output in the console
 
