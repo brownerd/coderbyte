@@ -1,11 +1,13 @@
 # CoderByte starter
 
-Run CoderByle challenges locally.
+Run CoderByle challenges locally with gulp and budo
 
+## Setup
 - Clone this repo
-- Switch to the **start** branch to access all the uncompleted challenges
 - Install dependencies `npm i`
-- Fire up challenge from the commandline `gulp coderbyte --easy --01`
+- Fire up challenges from the commandline `gulp coderbyte --easy --01`
+- This will open Google Chrome and live relaod your changes on save
+- Open Chrome dev tools to view output in the console
 
 
 ## Backstory
@@ -14,21 +16,24 @@ CoderByte is rad, but it sucks if you suck at JS like I do. I don't need to be t
 
 Furthermore, I wanted to try out other solutions, make notes and use Google WebDev Tools. Also, I hate how can't see all the challenges quickly.
 
-So, I copied all of the Challenges to this Repo.
+So, I copied all of the Easy challenges to this Repo. I will get around to the Medium and Hard challenges later.
 
 
-Check out the [Start](https://github.com/brownerd/coderbyte/tree/start) Branch to get all of the **uncompleted challenges**.
-
-Doing all I can to learn JS
-
-### Solution Resources
+## Solution Resources
+If you are looking for the solutions to these challenges, you can check these resources below:
 - [leaena/coderbyte](https://github.com/leaena/coderbyte)
 - [ZLester/Coderbyte-Solutions](https://github.com/ZLester/Coderbyte-Solutions)
 
 
-## Easy
+## Manage progess
+Check off the challenges as you complete them. Example:
 
 1. [x] **First Reverse** - For this challenge you will be reversing a string.
+
+
+## Easy
+
+1. [ ] **First Reverse** - For this challenge you will be reversing a string.
 1. [ ] **First Factorial** - For this challenge you will be determining the factorial for a given number.
 1. [ ] **Longest Word** - For this challenge you will be determining the largest word in a string.
 1. [ ] **Letter Changes** - For this challenge you will be manipulating characters in a string based off their positions in the alphabet.
