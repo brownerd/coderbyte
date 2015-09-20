@@ -12,7 +12,7 @@ run `gulp --d easy --c 1` to get started.
 1. [x] **First Factorial** - For this challenge you will be determining the factorial for a given number.
 1. [x] **Longest Word** - For this challenge you will be determining the largest word in a string.
 1. [x] **Letter Changes** - For this challenge you will be manipulating characters in a string based off their positions in the alphabet.
-1. [ ] **Simple Adding** - For this challenge you will be adding up all the numbers from 1 to a certain argument.
+1. [x ] **Simple Adding** - For this challenge you will be adding up all the numbers from 1 to a certain argument.
 1. [ ] **Letter Capitalize** - For this challenge you will be capitalizing certain characters in a string.
 1. [ ] **Simple Symbols** - For this challenge you will be determining whether or not certain characters are in correct positions.
 1. [ ] **Check Nums** - For this challenge you will be comparing two numbers and determining which one is greater.

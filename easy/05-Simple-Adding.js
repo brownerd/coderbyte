@@ -33,6 +33,14 @@ console.log( SimpleAdding( 2 ) );
 
 // Recursion in Functional JavaScript
 // http://www.sitepoint.com/recursion-functional-javascript/
+//
+// Understanding recursion in functional JavaScript programming
+// http://www.integralist.co.uk/posts/js-recursion.html
+
+
+
+
+
 
 
 // Scratch pad
