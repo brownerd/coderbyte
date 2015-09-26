@@ -6,8 +6,8 @@
 
 function AlphabetSoup(str) {
 
-  // code goes here
-  return str;
+  var arr = str.split('')
+  return arr.sort().join('');
 
 }
 
@@ -27,7 +27,7 @@ console.log( AlphabetSoup("hooplah") )
 // Resources
 // ----------------------------------------------------------------------------
 
-
+// Array.prototype.sort() - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort
 
 
 // Scratch pad
