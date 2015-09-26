@@ -14,8 +14,8 @@ run `gulp --d easy --c 1` to get started.
 4. [x] **Letter Changes** - For this challenge you will be manipulating characters in a string based off their positions in the alphabet.
 5. [x] **Simple Adding** - For this challenge you will be adding up all the numbers from 1 to a certain argument.
 6. [x] **Letter Capitalize** - For this challenge you will be capitalizing certain characters in a string.
-7. [ ] **Simple Symbols** - For this challenge you will be determining whether or not certain characters are in correct positions.
-8. [ ] **Check Nums** - For this challenge you will be comparing two numbers and determining which one is greater.
+7. [x] ?? **Simple Symbols** - For this challenge you will be determining whether or not certain characters are in correct positions.
+8. [x] **Check Nums** - For this challenge you will be comparing two numbers and determining which one is greater.
 9. [ ] **Time Convert** - For this challenge you will be determining the difference in hours and minutes between two given times.
 10. [ ] **Alphabet Soup** - For this challenge you will be sorting characters in a string.
 11. [ ] **AB Check** - For this challenge you will determine if two characters are separated a specific way in the string.

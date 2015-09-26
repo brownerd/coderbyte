@@ -6,21 +6,19 @@
 function CheckNums(num1,num2) {
 
   // code goes here
-  return num1 + num2;
+  if ( num2 > num1) {
+    return "true"
+  } else if ( num1 > num2) {
+    return "false"
+  } else {
+    return "-1"
+  }
 
 }
 
 console.log( CheckNums(3,119)  )
 console.log( CheckNums(67,0)  )
-
-
-
-
-
-
-
-
-
+console.log( CheckNums(67,67)  )
 
 
 
