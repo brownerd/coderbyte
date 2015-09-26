@@ -9,35 +9,35 @@ run `gulp --d easy --c 1` to get started.
 ## Easy
 
 1. [x] **First Reverse** - For this challenge you will be reversing a string.
-1. [x] **First Factorial** - For this challenge you will be determining the factorial for a given number.
-1. [x] **Longest Word** - For this challenge you will be determining the largest word in a string.
-1. [x] **Letter Changes** - For this challenge you will be manipulating characters in a string based off their positions in the alphabet.
-1. [x ] **Simple Adding** - For this challenge you will be adding up all the numbers from 1 to a certain argument.
-1. [ ] **Letter Capitalize** - For this challenge you will be capitalizing certain characters in a string.
-1. [ ] **Simple Symbols** - For this challenge you will be determining whether or not certain characters are in correct positions.
-1. [ ] **Check Nums** - For this challenge you will be comparing two numbers and determining which one is greater.
-1. [ ] **Time Convert** - For this challenge you will be determining the difference in hours and minutes between two given times.
-1. [ ] **Alphabet Soup** - For this challenge you will be sorting characters in a string.
-1. [ ] **AB Check** - For this challenge you will determine if two characters are separated a specific way in the string.
-1. [ ] **Vowel Count** - For this challenge you will be counting all the vowels in a string.
-1. [ ] **Word Count** - For this challenge you will be determining how many words a sentence contains.
-1. [ ] **Ex Oh** - For this challenge you will traverse a string and determine if there is an equal amount of certain characters.
-1. [ ] **Palindrome** - For this challenge you will determine if a string is written the same way forward and backwards.
-1. [ ] **Arith Geo** - For this challenge you will determine if numbers within an array follow an arithmetic or geometric sequence.
-1. [ ] **Array Addition I** - For this challenge you will determine if numbers in an array can add up to a certain number in the array.
-1. [ ] **Letter Count I** - For this challenge you will determine which word has the greatest number of repeated letters.
-1. [ ] **Second GreatLow** - For this challenge you will determine the second lowest and greatest numbers in an array.
-1. [ ] **Division Stringified** - For this challenge you will divide two numbers and return them in a certain format.
-1. [ ] **Counting Minutes** I - For this challenge you will return the total number of minutes between two times.
-1. [ ] **Mean Mode** - For this challenge you will determine if the mode equals the mean in an array.
-1. [ ] **Dash Insert** - For this challenge you will be manipulating a string using dashes (-).
-1. [ ] **Swap Case** - For this challenge you will be swapping the case of each character in the string.
-1. [ ] **Number Addition** - For this challenge you will traverse a string searching for all the numbers and then you will add them up.
-1. [ ] **Third Greatest** - For this challenge you will determine the third largest string within an array.
-1. [ ] **Powers of Two** - For this challenge you will be determining whether or not a number is a power of two.
-1. [ ] **Additive Persistence** - For this challenge you will be determining the additive persistence for a given number.
-1. [ ] **Multiplicative Persistence** - For this challenge you will be determining the multiplicative persistence for a given number.
-1. [ ] **Off Line Minimum** - For this challenge you will be creating a subset of an array.
+2. [x] **First Factorial** - For this challenge you will be determining the factorial for a given number.
+3. [x] **Longest Word** - For this challenge you will be determining the largest word in a string.
+4. [x] **Letter Changes** - For this challenge you will be manipulating characters in a string based off their positions in the alphabet.
+5. [x] **Simple Adding** - For this challenge you will be adding up all the numbers from 1 to a certain argument.
+6. [x] **Letter Capitalize** - For this challenge you will be capitalizing certain characters in a string.
+7. [ ] **Simple Symbols** - For this challenge you will be determining whether or not certain characters are in correct positions.
+8. [ ] **Check Nums** - For this challenge you will be comparing two numbers and determining which one is greater.
+9. [ ] **Time Convert** - For this challenge you will be determining the difference in hours and minutes between two given times.
+10. [ ] **Alphabet Soup** - For this challenge you will be sorting characters in a string.
+11. [ ] **AB Check** - For this challenge you will determine if two characters are separated a specific way in the string.
+12. [ ] **Vowel Count** - For this challenge you will be counting all the vowels in a string.
+13. [ ] **Word Count** - For this challenge you will be determining how many words a sentence contains.
+14. [ ] **Ex Oh** - For this challenge you will traverse a string and determine if there is an equal amount of certain characters.
+15. [ ] **Palindrome** - For this challenge you will determine if a string is written the same way forward and backwards.
+16. [ ] **Arith Geo** - For this challenge you will determine if numbers within an array follow an arithmetic or geometric sequence.
+17. [ ] **Array Addition I** - For this challenge you will determine if numbers in an array can add up to a certain number in the array.
+18. [ ] **Letter Count I** - For this challenge you will determine which word has the greatest number of repeated letters.
+19. [ ] **Second GreatLow** - For this challenge you will determine the second lowest and greatest numbers in an array.
+20. [ ] **Division Stringified** - For this challenge you will divide two numbers and return them in a certain format.
+21. [ ] **Counting Minutes** I - For this challenge you will return the total number of minutes between two times.
+22. [ ] **Mean Mode** - For this challenge you will determine if the mode equals the mean in an array.
+23. [ ] **Dash Insert** - For this challenge you will be manipulating a string using dashes (-).
+24. [ ] **Swap Case** - For this challenge you will be swapping the case of each character in the string.
+25. [ ] **Number Addition** - For this challenge you will traverse a string searching for all the numbers and then you will add them up.
+26. [ ] **Third Greatest** - For this challenge you will determine the third largest string within an array.
+27. [ ] **Powers of Two** - For this challenge you will be determining whether or not a number is a power of two.
+28. [ ] **Additive Persistence** - For this challenge you will be determining the additive persistence for a given number.
+29. [ ] **Multiplicative Persistence** - For this challenge you will be determining the multiplicative persistence for a given number.
+30. [ ] **Off Line Minimum** - For this challenge you will be creating a subset of an array.
 
 
 ## Medium

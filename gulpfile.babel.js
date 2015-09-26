@@ -1,16 +1,19 @@
-var argv = require('minimist')(process.argv.slice(2), {
+
+import gulp from 'gulp'
+import budo from 'budo'
+import garnish  from 'garnish'
+import once from 'once'
+import errorify from 'errorify'
+import openURL from 'opn'
+import babelify from 'babelify'
+import minimist from 'minimist'
+
+const browser = 'google chrome canary'
+const argv = minimist(process.argv.slice(2), {
   string: 'd', // difficulty
   number: 'c'}) // challenge
 
-var gulp = require('gulp')
-var budo = require('budo')
-var garnish  = require('garnish')
-var once = require('once')
-var errorify = require('errorify')
-var openURL = require('opn')
-var browser = 'google chrome canary'
-
-var challenges = {
+const challenges = {
   'easy' : [
     '01-First-Reverse.js',
     '02-First-Factorial.js',
@@ -51,13 +54,11 @@ var challenges = {
   ]
 }
 
-
 gulp.task('clog', function() {
   console.log( argv );
 })
 
-
-var entry = './'+ argv.d  +'/' + challenges[argv.d][argv.c - 1]
+const entry = `./${argv.d}/${challenges[argv.d][argv.c - 1]}`
 
 //the development task
 gulp.task('default', function(cb) {
@@ -68,12 +69,11 @@ gulp.task('default', function(cb) {
 
   //dev server
   budo(entry, {
-    //serve: './01-first-reverse.js',    //end point for our <script> tag
     stream: pretty,        //pretty-print requests
     live: true,            //live reload & CSS injection
     verbose: true,         //verbose watchify logging
-    //dir: 'app',            //directory to serve
-    //transform: babelify,   //browserify transforms
+    //dir: 'app',          //directory to serve
+    transform: babelify,   //browserify transforms
     plugin: errorify       //display errors in browser
   })
   .on('exit', cb)
@@ -81,15 +81,8 @@ gulp.task('default', function(cb) {
     ready = once(openURL.bind(null, ev.uri, {app: browser} ))
   })
   .once('update', function() {
-    //open the browser
-    //if (argv.open) {
-      ready()
-    //}
+    ready()
   })
 })
 
-
-
-// Usage
-
-// gulp --d easy --c 1
+// Usage: gulp --d easy --c 1

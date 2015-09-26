@@ -28,6 +28,16 @@ console.log( Palindrome("eye" ) );
 // Resources
 // ----------------------------------------------------------------------------
 
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
+// Example: Using map to reverse a string
+//
+// var str = '12345';
+// [].map.call(str, function(x) {
+//   return x;
+// }).reverse().join('');
+
+// Output: '54321'
+// Bonus: use '===' to test if original string was a palindrome
 
 
 
