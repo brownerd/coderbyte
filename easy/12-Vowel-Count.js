@@ -5,14 +5,19 @@
 
 
 function VowelCount(str) {
+  var count = 0
+  for( var i = 0, len = str.length; i < len; i++ ) {
 
-  // code goes here
-  return str;
-
+    if (/[aeiou]/.test(str[i]) ) {
+      count ++
+    }
+  }
+    return count
 }
 
 console.log( VowelCount("hello" ) )
 console.log( VowelCount("coderbyte") )
+console.log( VowelCount("aeiou") )
 
 
 // Correct Sample Outputs

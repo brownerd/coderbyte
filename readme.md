@@ -19,7 +19,7 @@ run `gulp --d easy --c 1` to get started.
 9. [x] **Time Convert** - For this challenge you will be determining the difference in hours and minutes between two given times.
 10. [x] **Alphabet Soup** - For this challenge you will be sorting characters in a string.
 11. [x] **AB Check** - For this challenge you will determine if two characters are separated a specific way in the string.
-12. [ ] **Vowel Count** - For this challenge you will be counting all the vowels in a string.
+12. [x] **Vowel Count** - For this challenge you will be counting all the vowels in a string.
 13. [ ] **Word Count** - For this challenge you will be determining how many words a sentence contains.
 14. [ ] **Ex Oh** - For this challenge you will traverse a string and determine if there is an equal amount of certain characters.
 15. [ ] **Palindrome** - For this challenge you will determine if a string is written the same way forward and backwards.
