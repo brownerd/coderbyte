@@ -4,10 +4,7 @@
 
 
 function WordCount(str) {
-
-  // code goes here
-  return str;
-
+  return str.split(' ').length
 }
 
 console.log( WordCount("Hello World" ) )

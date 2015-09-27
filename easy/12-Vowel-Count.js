@@ -12,7 +12,7 @@ function VowelCount(str) {
       count ++
     }
   }
-    return count
+  return count
 }
 
 console.log( VowelCount("hello" ) )
