@@ -6,13 +6,20 @@
 
 function ABCheck(str) {
 
-  // code goes here
-  return str;
-
+  for( var i = 0, len = str.length; i < len; i++ ) {
+    if ( /a/.test(str[i])) {
+      //console.log( str[i + 4] )
+      if (str[i + 4] === "b") {
+        return true
+      }
+    }
+  }
+  return false
 }
 
 console.log( ABCheck("after badly") )
 console.log( ABCheck("Laura sobs") )
+console.log( ABCheck("ahjkbajiob") )
 
 
 // Correct Sample Outputs
@@ -30,5 +37,6 @@ console.log( ABCheck("Laura sobs") )
 
 
 
-// Scratch pad
+// Notes
 // ----------------------------------------------------------------------------
+// It took a while to figure out the double IF statement
