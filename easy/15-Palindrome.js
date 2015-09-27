@@ -7,13 +7,19 @@
 
 function Palindrome(str) {
 
-  // code goes here
-  return str;
+  // Let's turn the string into an array filter out the spaces
+  var x = str.split('').filter(function(str) {
+    return /[a-z]/.test(str)
+  })
+
+  //console.log( x );
+  return x.join('') === x.reverse().join('')
 
 }
 
 console.log( Palindrome("never odd or even" ) );
 console.log( Palindrome("eye" ) );
+console.log( Palindrome("hello" ) );
 
 
 // Correct Sample Outputs
@@ -27,6 +33,8 @@ console.log( Palindrome("eye" ) );
 
 // Resources
 // ----------------------------------------------------------------------------
+
+// I didn't use this, but I wanted to remember ti for later.
 
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
 // Example: Using map to reverse a string

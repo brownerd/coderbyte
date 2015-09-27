@@ -11,7 +11,6 @@ function ExOh(str) {
   var o = str.split('').filter(function(str) {
     return /o/.test(str)
   })
-
   return x.length === o.length
 }
 

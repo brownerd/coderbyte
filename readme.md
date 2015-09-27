@@ -22,7 +22,7 @@ run `gulp --d easy --c 1` to get started.
 12. [x] **Vowel Count** - For this challenge you will be counting all the vowels in a string.
 13. [x] **Word Count** - For this challenge you will be determining how many words a sentence contains.
 14. [x] **Ex Oh** - For this challenge you will traverse a string and determine if there is an equal amount of certain characters.
-15. [ ] **Palindrome** - For this challenge you will determine if a string is written the same way forward and backwards.
+15. [x] **Palindrome** - For this challenge you will determine if a string is written the same way forward and backwards.
 16. [ ] **Arith Geo** - For this challenge you will determine if numbers within an array follow an arithmetic or geometric sequence.
 17. [ ] **Array Addition I** - For this challenge you will determine if numbers in an array can add up to a certain number in the array.
 18. [ ] **Letter Count I** - For this challenge you will determine which word has the greatest number of repeated letters.
