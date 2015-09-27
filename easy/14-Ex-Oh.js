@@ -4,13 +4,21 @@
 
 function ExOh(str) {
 
-  // code goes here
-  return str;
+  var x = str.split('').filter(function(str) {
+    return /x/.test(str)
+  })
 
+  var o = str.split('').filter(function(str) {
+    return /o/.test(str)
+  })
+
+  return x.length === o.length
 }
 
 console.log( ExOh("xooxxo") )
 console.log( ExOh("x") )
+
+
 
 
 // Correct Sample Outputs
@@ -25,8 +33,16 @@ console.log( ExOh("x") )
 // Resources
 // ----------------------------------------------------------------------------
 
+// The Array filter method
+// https://egghead.io/lessons/javascript-the-array-filter-method
 
 
 
-// Scratch pad
+// Notes
 // ----------------------------------------------------------------------------
+/*
+
+I knew that I could use .filter() here from the Egghead async tut, but I didn't exactly know how to get it to work. After a ton of hacking, it got it to work.
+
+
+ */
